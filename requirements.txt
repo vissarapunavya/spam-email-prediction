@@ -1,4 +1,6 @@
 flask
-scikit-learn
 pandas
 joblib
+scikit-learn==1.7.1
+gunicorn
+
