@@ -16,6 +16,7 @@ def home():
         pred = model.predict(features)
         result = "Spam" if pred[0] == 1 else "ham"
     return render_template("index.html", result=result)
-
 if __name__ == "__main__":
-    app.run(debug=True)
+    import os
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
