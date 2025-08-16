@@ -25,8 +25,10 @@ The model is integrated with a **Flask web application** and deployed online.
    cd spam-email-prediction
 2.Install the dependencies
    pip install -r requirements.txt
+   
 3.run the web app
    python app.py
+   
 4.Open your browser and go to
   http://127.0.0.1:5000/
 
